@@ -21,7 +21,6 @@ img {
   
   .bg0 {
     background-image: url('https://img.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg?w=1800&t=st=1684192039~exp=1684192639~hmac=8df5ec0a39dcc0410589fa8ab7a46de597ca5df04762f4edb6d5bcdcc2a0aa9d');
-
   }
   
   .bg1 {
@@ -30,7 +29,6 @@ img {
   
   .bg2 {
     background-image: url('https://img.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg?w=1800&t=st=1684192039~exp=1684192639~hmac=8df5ec0a39dcc0410589fa8ab7a46de597ca5df04762f4edb6d5bcdcc2a0aa9d');
-
   }
 
 
@@ -80,6 +78,10 @@ h3 {
     font-family: Quilon-Bold;
     margin: 20px;
 }
+nav, h4 {
+    text-align: center;
+}
+
 /* face */
 .face {
     position: absolute;
@@ -91,11 +93,11 @@ h3 {
 }
 
 .front {
-    background: rgb(123, 179, 109);
+    background: #eea6e4
 }
 
 .back {
-    background: cornflowerblue;
+    background: rgb(126, 179, 111);
     /* flip it default   */
     transform: rotateY(180deg);
 }

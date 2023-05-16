@@ -6,9 +6,9 @@ const beeGees = ['bg0', 'bg1', 'bg2'];
 
 // Store Swoop profile images
 const pics = [
-  './img/swoop.webp',
-  'img/swoop+2.webp',
-  'img/swoop3.webp'
+  'IMG_7198.JPG',
+  'IMG_6976.jpg',
+  'IMG_6975.jpg'
 ];
 
 // Random number between 0 and the size of the array
