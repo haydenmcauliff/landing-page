@@ -8,11 +8,36 @@ body {
     align-items: center;
     height: 100vh;
 }
+/* random Beegee classes*/ 
+
+img {
+    width: 560px;
+    height: 500px;
+    object-fit: cover;
+    padding-left: 20px;
+    padding-top: 15px;
+
+  }
+  
+  .bg0 {
+    background-image: url('https://img.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg?w=1800&t=st=1684192039~exp=1684192639~hmac=8df5ec0a39dcc0410589fa8ab7a46de597ca5df04762f4edb6d5bcdcc2a0aa9d');
+
+  }
+  
+  .bg1 {
+    background-image: url('https://img.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg?w=1800&t=st=1684192039~exp=1684192639~hmac=8df5ec0a39dcc0410589fa8ab7a46de597ca5df04762f4edb6d5bcdcc2a0aa9d');
+  }
+  
+  .bg2 {
+    background-image: url('https://img.freepik.com/free-vector/wave-textures-white-background-vector_53876-60286.jpg?w=1800&t=st=1684192039~exp=1684192639~hmac=8df5ec0a39dcc0410589fa8ab7a46de597ca5df04762f4edb6d5bcdcc2a0aa9d');
+
+  }
+
 
  /* scene */
 .scene {
-    width: 300px;
-    height: 400px;
+    width: 600px;
+    height: 720px;
     /* space between card-scenes */
     margin: 16px;
 
@@ -25,6 +50,8 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
+    margin-top: 70px;
+    margin-bottom: 40px;
 
     cursor: pointer;
     transition: transform 1s;
@@ -32,7 +59,27 @@ body {
     /* preserve child 3d   */
     transform-style: preserve-3d;
 }
-
+/* text styling */
+h1{
+    font-size: 40px;
+    text-align: center;
+    font-family: Quilon-Bold;
+    margin: 10px;
+}
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    font-family: GeneralSans-Regular;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-family: Quilon-Bold;
+    margin: 20px;
+}
 /* face */
 .face {
     position: absolute;
@@ -44,7 +91,7 @@ body {
 }
 
 .front {
-    background: coral;
+    background: rgb(123, 179, 109);
 }
 
 .back {
